@@ -42,6 +42,20 @@
             'settings' => 'showcase_img_3',
             'priority' => 3
         )));
+
+        //Mobile showcase 
+
+        $wp_customize->add_setting('mob_showcase_text', array(
+            'default' => _x('Professional Make Up Artist', 'mua_one'),
+            'type' => 'theme_mod'
+        ));
+
+        $wp_customize->add_control('mob_showcase_text', array(
+            'label' => __('Text', 'mua_one'),
+            'section' => 'showcase',
+            'priority' => 4
+        ));
+        
     }    
 
     add_action('customize_register', 'wp_customize_register');

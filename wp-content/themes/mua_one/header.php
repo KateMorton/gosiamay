@@ -20,10 +20,15 @@
         </head>
 
         <body>
-            <header id="header" class="container pt-3">     
-                <div class="logo d-flex justify-content-center">
+            <header id="header" class="container pt-3">  
+                <?php if(!is_front_page()) : ?>
+                    <div class="logo d-flex d-sm-none justify-content-center">
+                        <a class="navbar-brand" href="#"><?php the_custom_logo(); ?></a>
+                    </div>
+                <?php endif;?>   
+                <div class="logo d-none d-sm-flex justify-content-center">
                     <a class="navbar-brand" href="#"><?php the_custom_logo(); ?></a>
-                </div>
+                </div>                
                 <nav class="navbar navbar-expand-lg pt-3">        
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"><i class="fas fa-caret-down"></i></span>
