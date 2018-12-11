@@ -1,0 +1,113 @@
+/*
+Theme Name: mua_one
+Author: Kate Morton
+Author URI: http://katemortondeveloper.co.uk/
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+html, body {
+    height: 100%;
+  }
+  
+  body, p a, small {
+    background: #f9f8f9;
+    font-family: 'Sintony', sans-serif;
+  }
+  
+  /* Fonts
+  -------------------------------------------------- */
+
+  p {
+    font-size: .75rem;
+  }
+  
+  .fa-caret-down, .fa-envelope, .fa-instagram, .fa-phone {
+    color: #2b2b2b;
+  }
+  
+  .fa-envelope, .fa-phone {
+    font-size: .75rem;
+  }
+  
+  a, .page h5 {
+    font-family: 'Dancing Script', cursive;
+    color: #2b2b2b;
+  }
+  
+  a:hover {
+    color: #55272a;
+  }
+  
+  a:active {
+    transform: translateY(4px);
+  }
+  
+  .copy {
+    font-size: .75rem;
+  }
+
+  .page h5 {
+    color: #55272a;
+  }
+  
+  /* header
+  -------------------------------------------------- */
+  
+  .logo img {
+    width: 150px;
+    height: 79px;
+  }
+  
+  .navbar {
+    height: 48.68px;
+  }
+
+  #navbarNavDropdown {
+    background: #f9f8f9;
+    z-index: 1;
+  }
+  
+  .nav-link {
+   display: none;
+  }
+  
+  /* Carousel
+  -------------------------------------------------- */
+  
+  .showcase {
+    height: 70%;
+  }
+  
+  .carousel {  
+    margin: auto;
+  }
+  
+  .carousel-inner {
+    box-shadow: 5px 10px 20px #a99395
+  }
+  
+  .carousel-fade .carousel-item {
+    opacity: 0;
+    transition-duration: 5000ms;
+    transition-property: opacity;
+  }
+  
+  /* Footer
+  -------------------------------------------------- */
+  
+  .social {
+    padding: 0 40px;
+  }
+
+  /* Page
+  -------------------------------------------------- */
+
+  .post-thumb img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+  
