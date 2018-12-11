@@ -106,23 +106,6 @@ html, body {
     transition-duration: 5000ms;
     transition-property: opacity;
   }
-
-  /* Mobile showcase
-  -------------------------------------------------*/
-
-  .image {
-    
-  }
-
-  .mob-showcase img {
-    width: 100%;   
-    height: 300px;
-    overflow: hidden; 
-  }
-
-  .mob-showcase .carousel {
-    height: 100%;
-  }
   
   /* Footer
   -------------------------------------------------- */
@@ -139,5 +122,8 @@ html, body {
     height: auto;
   }
   
+  .page {
+    min-height: 60%;
+  }
 
   
