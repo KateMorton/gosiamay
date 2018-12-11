@@ -5,8 +5,8 @@
         <?php while(have_posts()) : the_post(); ?>
             <div class="page container d-flex justify-content-center align-self-center mt-5 mb-5">
                 <div class="w-75">
-                    <h4 class="mb-5"><?php the_title(); ?></h4> 
-                    <div class="row">                        
+                    <h4><?php the_title(); ?></h4> 
+                    <div class="row align-items-center">                        
                         <div class="col-sm">               
                             <?php the_content(); ?> 
                         </div>  

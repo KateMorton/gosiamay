@@ -19,7 +19,7 @@
             <?php wp_head(); ?> <!--Do not remove -->
         </head>
 
-        <body>
+        <body class="content">
             <header id="header" class="container pt-3">  
                 <?php if(!is_front_page()) : ?>
                     <div class="logo d-flex d-sm-none justify-content-center">

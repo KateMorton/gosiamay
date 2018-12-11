@@ -15,6 +15,10 @@ html, body {
     background: #f9f8f9;
     font-family: 'Sintony', sans-serif;
   }  
+
+  .content {
+    display: none;
+  }
   
   /* Fonts
   -------------------------------------------------- */
@@ -41,7 +45,7 @@ html, body {
   }
   
   a:active {
-    transform: translateY(4px);
+    color: #55272a;
   }
   
   .copy {
@@ -66,7 +70,7 @@ html, body {
   }
   
   .navbar {
-    height: 48.68px;
+    height: 70px;
   }
 
   #navbarNavDropdown {
@@ -123,7 +127,12 @@ html, body {
   }
   
   .page {
+    display: none;
     min-height: 60%;
+  }
+
+  .page .row {
+    height: 100%;
   }
 
   
